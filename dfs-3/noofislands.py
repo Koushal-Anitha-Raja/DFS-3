@@ -1,3 +1,5 @@
+#Time_Complexity: O(mn)
+#Space_Complexity: Recursive stack space - O(mn)
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         # the row of the grid
